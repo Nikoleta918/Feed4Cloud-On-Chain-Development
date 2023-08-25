@@ -1,0 +1,26 @@
+arff
+Flask
+Flask_RESTful
+matplotlib
+numpy
+opentelemetry_exporter_prometheus
+pandas
+prometheus_client
+pyDecision
+requests
+scipy
+web3
+
+
+# arff==0.9
+# Flask==2.0.1
+# Flask_RESTful==0.3.9
+# matplotlib==3.4.2
+# numpy==1.17.4
+# opentelemetry_exporter_prometheus==1.12.0rc1
+# pandas==1.2.4
+# prometheus_client==0.16.0
+# pyDecision==2.8.7
+# requests==2.22.0
+# scipy==1.6.3
+# web3==6.1.0

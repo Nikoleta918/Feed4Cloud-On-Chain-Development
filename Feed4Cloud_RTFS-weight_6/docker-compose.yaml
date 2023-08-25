@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+
+  Feed4Cloud_RTFS:
+    image: registry.gitlab.com/feed4cloud-trublo/feed4cloud_rtfs:1.0.0
+    container_name: Feed4Cloud_RTFS
+    ports:
+      - 8000:8000
+    environment:
+      ALASTRIA_OBJ_PATH: "/app/ABI_alastria.json"
+    volumes:
+      - ./ABI_alastria.json:/app/ABI_alastria.json
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+    restart: unless-stopped
+
